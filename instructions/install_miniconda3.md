@@ -8,8 +8,7 @@ https://stackoverflow.com/questions/39371772/how-to-install-anaconda-on-raspberr
 `sudo md5sum Miniconda3-latest-Linux-armv7l.sh # (optional) check md5`
 `sudo /bin/bash Miniconda3-latest-Linux-armv7l.sh`
 
-Change default directory to 
-`/home/pi/miniconda3`
+Change default directory to /home/pi/miniconda3
 #open the bashrc or from the folder with text editor
 `sudo nano /home/pi/.bashrc`
 Add this line to any line in the file
@@ -17,7 +16,7 @@ Add this line to any line in the file
 
 ## Install other python versions and create virtual environment
 
-`conda install python=3.5`
+`conda install python=3.5` or 
 `conda install python=3.6`
 
 Afterwards I was able to create environments with the added Python version, e.g. with Python 3.5:
