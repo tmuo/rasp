@@ -44,6 +44,6 @@ Based on the video: https://www.youtube.com/watch?v=LBIBUntnxp8 (Raspberry Pi 4 
 38. cd librealsense/
 39. mkdir build
 40. cd build/
-41. cmake .. -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=Release -DFORCE_LIBUVC=true (Error: https://www.howtoforge.com/tutorial/how-to-install-openssl-from-source-on-linux/)
+41. cmake .. -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=Release -DFORCE_LIBUVC=true (Error: https://www.howtoforge.com/tutorial/how-to-install-openssl-from-source-on-linux/ OR https://www.cloudwafer.com/blog/installing-openssl-on-ubuntu-16-04-18-04/)
 42. make -j1
 43. sudo make install
