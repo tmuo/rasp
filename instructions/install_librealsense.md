@@ -37,3 +37,13 @@ Based on the video: https://www.youtube.com/watch?v=LBIBUntnxp8 (Raspberry Pi 4 
 31. sudo ldconfig
 32. protoc --version (libprotoc 3.10.0)
 33. cd ../.. (to REPO)
+34. wget http://github.com/PINTO0309/TBBonARMv7/raw/master/libtbb-dev_2018U2_armhf.deb
+35. sudo dpkg -i libtbb-dev_2018U2_armhf.deb
+36. sudo ldconfig
+37. rm libtbb-dev_2018U2_armhf.deb
+38. cd librealsense/
+39. mkdir build
+40. cd build/
+41. cmake .. -DBUILD_EXAMPLES=true -DCMAKE_BUILD_TYPE=Release -DFORCE_LIBUVC=true (Error: https://www.howtoforge.com/tutorial/how-to-install-openssl-from-source-on-linux/)
+42. make -j1
+43. sudo make install
